@@ -9,7 +9,7 @@ class Category (BaseModel):
     description: str = Field(min_length=4, max_length=100, title="Description of the income")
 
 
-def get_all_cateogyr(list):
+def get_all_category(list):
     return JSONResponse(content=list, status_code=200)
 
 def get_cateogory_by_id(id,list):
