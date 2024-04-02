@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 
 class Expense (BaseModel):
     id: Optional[int] = Field(default=None, title="Id of the expense")
-    name: str = Field(min_length=4, max_length=50, title="Name of the expense")
+    date: str = Field(min_length=4, max_length=20, title="Name of the expense")
     description: str = Field(min_length=4, max_length=100, title="Description of the expense")
     value: int = Field(default=0, title="Value of the expense")
 
