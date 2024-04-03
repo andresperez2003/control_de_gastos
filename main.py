@@ -27,10 +27,10 @@ app.contact = {
  "email": "asdrubala.pereza@autonoma.edu.co",
 } 
 
-app.include_router(prefix="/category", router=category_router)
-app.include_router(prefix="/expense", router=expense_router)
-app.include_router(prefix="/report", router=report_router)
-app.include_router(prefix="/income", router=income_router)
+app.include_router(prefix="/categories", router=category_router)
+app.include_router(prefix="/expenses", router=expense_router)
+app.include_router(prefix="/reports", router=report_router)
+app.include_router(prefix="/incomes", router=income_router)
 
 
 
