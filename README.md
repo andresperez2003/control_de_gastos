@@ -1,25 +1,25 @@
 Asdrubal Andres Perez Ascaio
-
+\n
 Endpoints
-
+\n
 Categories
-. GET http://localhost:6200/categories/category
-. GET http://localhost:6200/categories/category/:id
-. DELETE http://localhost:6200/categories/category/:id
-. POST http://localhost:6200/categories/category
-
-Expenses
-. GET http://localhost:6200/expenses/expense
-. GET http://localhost:6200/expenses/expense/:id
-. DELETE http://localhost:6200/categories/category/:id
-. POST http://localhost:6200/categories/category
-
-Incomes
-. GET http://localhost:6200/incomes/income
-. GET http://localhost:6200/incomes/income/:id
-. DELETE http://localhost:6200/incomes/income/:id
-. POST http://localhost:6200/incomes/income
-
-Report
-. GET http://localhost:6200/reports/general_report
-. GET http://localhost:6200/reports/expanded_report
+. GET http://localhost:6200/categories/category \n
+. GET http://localhost:6200/categories/category/:id \n
+. DELETE http://localhost:6200/categories/category/:id \n
+. POST http://localhost:6200/categories/category \n
+\n
+Expenses \n
+. GET http://localhost:6200/expenses/expense \n
+. GET http://localhost:6200/expenses/expense/:id \n
+. DELETE http://localhost:6200/categories/category/:id \n
+. POST http://localhost:6200/categories/category \n
+\n
+Incomes \n
+. GET http://localhost:6200/incomes/income \n
+. GET http://localhost:6200/incomes/income/:id \n
+. DELETE http://localhost:6200/incomes/income/:id \n
+. POST http://localhost:6200/incomes/income \n
+\n
+Report \n
+. GET http://localhost:6200/reports/general_report \n
+. GET http://localhost:6200/reports/expanded_report \n
